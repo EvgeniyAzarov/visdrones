@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "visdrones"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+ultralytics = "8.0.238"
+wandb = "^0.18.7"
+pillow = "^11.0.0"
+pandas = "^2.2.3"
+opencv-python = "^4.10.0.84"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
